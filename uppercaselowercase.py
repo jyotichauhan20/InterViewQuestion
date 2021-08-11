@@ -6,7 +6,7 @@ def countstring(string):
         elif j.islower():
            case["lower"]+=1
         else:
-           continue
+           pass
     print (string)
     print ("Upper", case["upper"])
     print ("Lower", case["lower"])
